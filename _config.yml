@@ -38,24 +38,24 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "/_data/comments/{options.slug}" # (default)
-  requiredFields         : ['name', 'email', 'message']
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" # (default)
+  requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : # "md5"
   generatedFields:
     date:
-      type               : "date"
+      type               : # "date"
       options:
-        format           : "iso8601" # (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : # "iso8601" # (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                : "6LcuLFEUAAAAAHoINRSZyXukS6McOYO0Y_ZAJG6X"
-  secret                 : "l1vjz9f0SIXu8uoo5kut8pcChdKsaFIe9VhwPs/xcAL7Tgs1pEnd2ovPDN9MwmZ8EMYcc6znU1oS6MzmDR9fsOCJsd4InKyPrXvJ5gfRflBjQN+kKHU57Jm53BnxCHpC9C7pMVwip+uJe0i4k4d7o1dL4yVf1vh+GCT82YlmQcw="
+  siteKey                : # "6LcuLFEUAAAAAHoINRSZyXukS6McOYO0Y_ZAJG6X"
+  secret                 : # "l1vjz9f0SIXu8uoo5kut8pcChdKsaFIe9VhwPs/xcAL7Tgs1pEnd2ovPDN9MwmZ8EMYcc6znU1oS6MzmDR9fsOCJsd4InKyPrXvJ5gfRflBjQN+kKHU57Jm53BnxCHpC9C7pMVwip+uJe0i4k4d7o1dL4yVf1vh+GCT82YlmQcw="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
@@ -263,6 +263,15 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      toc: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+github: [metadata]
