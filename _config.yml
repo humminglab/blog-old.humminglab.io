@@ -50,14 +50,10 @@ comments:
       options:
         format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   moderation: true
-  path: "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  path: "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
   requiredFields: ["name", "email", "message"]
   transforms:
     email: md5
-  reCaptcha:
-    enabled: true
-    siteKey: "6LcuLFEUAAAAAHoINRSZyXukS6McOYO0Y_ZAJG6X"
-    secret: "l1vjz9f0SIXu8uoo5kut8pcChdKsaFIe9VhwPs/xcAL7Tgs1pEnd2ovPDN9MwmZ8EMYcc6znU1oS6MzmDR9fsOCJsd4InKyPrXvJ5gfRflBjQN+kKHU57Jm53BnxCHpC9C7pMVwip+uJe0i4k4d7o1dL4yVf1vh+GCT82YlmQcw="
 
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
