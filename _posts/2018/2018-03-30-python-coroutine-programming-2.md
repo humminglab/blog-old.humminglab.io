@@ -1,6 +1,8 @@
 ---
 title: "Python 비동기 프로그래밍 제대로 이해하기(2/2) - Asyncio, Coroutine"
 date: "2018-03-30 17:00"
+category: language
+tags: python
 ---
 
 이글은 [Python 비동기 프로그래밍 제대로 이해하기(1/2)]({{ site.baseurl }}{% link _posts/2018/2018-03-26-python-coroutine-programming-1.md %}))에 이어서 작성한 글이다.

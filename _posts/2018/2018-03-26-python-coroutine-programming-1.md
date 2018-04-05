@@ -1,6 +1,8 @@
 ---
 title: "Python 비동기 프로그래밍 제대로 이해하기(1/2) - Asyncio, Coroutine"
 date: "2018-03-26 23:00"
+category: language
+tags: python
 ---
 
 Python2 와 비교하여 python3의 가장 돋보이는 killer feature 는 비동기 프로그래밍 지원이라고 할 수 있다. 이를 위하여 [python 3.4](https://www.python.org/download/releases/3.4.0/)에 asyncio 모듈이 추가되었고, [python 3.5](https://www.python.org/downloads/release/python-350/) 에는 native coroutine 지원을 위한 async, await 키워드가 추가되었다. 이들 기능을 이용하면 javascript나 다른 언어에서 지원하는 비동기 프로그래밍의 장점을 python 에서도 사용할 수 있다. 즉,  이벤트 방식이지만 blocking 방식의 프로그래밍 처럼 sequential 하게 코드를 작성할 수 있어, 단일 thread로 수만개의 네트워크 연결을 처리하는 서버를 오류 가능성을 최소화 하면서, 보다 편하게 개발할 수 있다. 
