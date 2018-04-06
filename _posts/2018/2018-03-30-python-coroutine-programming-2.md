@@ -1,7 +1,6 @@
 ---
 title: "Python 비동기 프로그래밍 제대로 이해하기(2/2) - Asyncio, Coroutine"
 date: "2018-03-30 17:00"
-category: language
 tags: python
 ---
 
