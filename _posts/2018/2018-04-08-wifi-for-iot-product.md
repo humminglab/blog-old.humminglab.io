@@ -1,6 +1,6 @@
 ---
 title: "Embedded IoT 플랫폼에서 Wi-Fi 지원"
-date: "2018-04-08 14:00"
+date: "2018-04-17 05:00"
 ---
 
 Embedded 형태의 IoT의 센서 노드를 개발하기 위한 플랫폼(HW + SW SDK)은 다양해져서 잠깐만 인터넷 검색을 해보아도 여러 솔루션을 찾아 볼 수 있다. 특히 센서 노드의 특성 상 이들 SDK는 IEEE 802.15.4(Zigbee, Thread), IEEE 802.15.1(Bluetooth, BLE), IEEE 802.11(Wi-Fi)와 같은 wireless internet connectivity가 주요 기능으로 들어간다.
@@ -90,10 +90,12 @@ Wi-Fi 디바이스의 경우 보통 chip vendor는 IEEE 802.11 표준 문서의 
 
 센서 기기를 위하여 위와 같은 일을 하기에는 개발 범위가 너무 커지므로 host, wifi 가 모듈로 포함되어 있고, OS, wi-fi 를 지원하는 솔루션을 찾아야 한다.
 
-이런 솔루션을 찾다보면 Wi-Fi chip은 다음과 같은 세가지로 좁혀진다.
+이런 솔루션을 찾다보면 Wi-Fi chip은 아래 정도로 좁혀진다.
 - [Espressif](https://www.espressif.com) [ESP8266](https://www.espressif.com/en/products/hardware/socs)
 - [Cyperss(구 broadcom)](http://www.cypress.com/) CYW4334x, CYW4343x, CYW43362, CYW4390x (제품에 따라 IEEE 802.11a 5Ghz 있음)
-- [Realtek](https://www.amebaiot.com/en/) RTL8195, RTL8710
+- [Realtek](https://www.amebaiot.com/en/) RTL8195, RTL8710/8711
+- [MediaTek MT7697](https://labs.mediatek.com/en/chipset/MT7697)
+- [Marvell 88MW300/302](https://www.marvell.com/microcontrollers/88mw30x/) (publc으로는 비공개)
 
 위의 chip들은 IoT를 타겟으로 하여 마케팅을 하고 있어, 제한된 범위지만 인터넷에서 관련 자료와 오픈된 소스를 구할 수 있다.
 
