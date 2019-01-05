@@ -61,7 +61,7 @@ OpenEmbedded와 Yocto Project는 협력 관계로 목표점이 다르다.
 
 
 ## 참고링크
-* [Embedded Linux timeline | 2net.co.uk](http://2net.co.uk/embedded-history)
+* [Embedded Linux timeline](http://2net.co.uk/embedded-history)
 * [Integrating Yocto and OpenEmbedded - ELC 2011(PDF)](http://elinux.org/images/d/de/Elc2011_kooi.pdf)
 * [PokyLinux: Mobile GNOME at your fingertips(PDF)](https://elinux.org/images/a/a2/Poky.pdf)
 
