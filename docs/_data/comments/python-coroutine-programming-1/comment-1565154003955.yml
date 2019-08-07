@@ -1,0 +1,7 @@
+_id: 376931a0-b8d0-11e9-8d43-a9affe6acf06
+message: "안녕하세요 iterator부분에서 질문이 있는데요 Counter class 를 iterator로 만들때 __iter__와 __next__ method를 가져야하는데 Counter내에서 Iterator class 객체를 불러온다고 하더라도 Counter의 type이 Iterator가 아니지 않나요? \r\nCounter가 Iterator class를 상속받아야 위의 코드가 제대로 동작할 것 같습니다"
+name: 온고로
+email: e42b121aaa655008f4060cc4cc9574ab
+url: ''
+hidden: ''
+date: '2019-08-07T05:00:03.954Z'
